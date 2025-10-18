@@ -59,6 +59,13 @@
       "eng": "mouse",
       "kor": "쥐",
       "isDone": false
+    },
+    {
+      "id": "bf0c",
+      "day": "3",
+      "eng": "apple",
+      "kor": "사과",
+      "isDone": false
     }
   ]
 }

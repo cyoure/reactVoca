@@ -5,6 +5,9 @@ export default function DayList() {
   const days = useFetch("http://localhost:3001/days");
   // 렌더링 직후 한번만 호출하고 싶을 땐 빈 배열을 사용하면 된다.
 
+  if (days.length === 0) {
+    return <span>Loading...</span>;
+  }
   return (
     <ul className="list_day">
       {days.map((day) => (
