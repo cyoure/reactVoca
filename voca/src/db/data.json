@@ -11,6 +11,10 @@
     {
       "id": "3",
       "day": 3
+    },
+    {
+      "id": "2750",
+      "day": 4
     }
   ],
   "words": [
@@ -40,6 +44,20 @@
       "day": 3,
       "eng": "pencil",
       "kor": "연필",
+      "isDone": false
+    },
+    {
+      "id": "0612",
+      "day": "1",
+      "eng": "computer",
+      "kor": "컴퓨터",
+      "isDone": false
+    },
+    {
+      "id": "6ad2",
+      "day": "2",
+      "eng": "mouse",
+      "kor": "쥐",
       "isDone": false
     }
   ]
