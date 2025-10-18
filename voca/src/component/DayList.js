@@ -1,18 +1,10 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import useFetch from "../hooks/useFetch";
 
 export default function DayList() {
-  const [days, setDays] = useState([]);
-
-  useEffect(() => {
-    fetch("http://localhost:3001/days")
-      .then((res) => {
-        return res.json();
-      })
-      .then((data) => {
-        setDays(data);
-      });
-  }, []); // 렌더링 직후 한번만 호출하고 싶을 땐 빈 배열을 사용하면 된다.
+  const days = useFetch("http://localhost:3001/days");
+  // 렌더링 직후 한번만 호출하고 싶을 땐 빈 배열을 사용하면 된다.
 
   return (
     <ul className="list_day">
