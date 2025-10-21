@@ -1,8 +1,13 @@
 import { Link } from "react-router-dom";
-import useFetch from "../hooks/useFetch";
+import useFetch from "../hooks/useFetch.ts";
+
+export interface IDay {
+  id: number;
+  day: number;
+}
 
 export default function DayList() {
-  const days = useFetch("http://localhost:3001/days");
+  const days: IDay[] = useFetch("http://localhost:3001/days");
   // 렌더링 직후 한번만 호출하고 싶을 땐 빈 배열을 사용하면 된다.
 
   if (days.length === 0) {

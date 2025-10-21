@@ -15,6 +15,10 @@
     {
       "id": "2750",
       "day": 4
+    },
+    {
+      "id": "2088",
+      "day": 5
     }
   ],
   "words": [
@@ -51,20 +55,6 @@
       "day": "1",
       "eng": "computer",
       "kor": "컴퓨터",
-      "isDone": false
-    },
-    {
-      "id": "6ad2",
-      "day": "2",
-      "eng": "mouse",
-      "kor": "쥐",
-      "isDone": false
-    },
-    {
-      "id": "bf0c",
-      "day": "3",
-      "eng": "apple",
-      "kor": "사과",
       "isDone": false
     }
   ]
